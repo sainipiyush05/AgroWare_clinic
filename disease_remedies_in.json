@@ -1,0 +1,803 @@
+{
+    "Corn_Common_Rust": {
+        "crop": {
+            "en": "Corn (Maize)",
+            "hi": "मक्का",
+            "pa": "ਮੱਕੀ"
+        },
+        "disease": {
+            "en": "Common Rust",
+            "hi": "आम जंग",
+            "pa": "ਆਮ ਜੰਗ"
+        },
+        "symptoms": {
+            "en": [
+                "Small, circular to elongated brown pustules on both leaf surfaces",
+                "Pustules turn dark brown to black as they age",
+                "Leaves turn yellow and dry prematurely",
+                "Reddish-brown spores rub off easily on fingers"
+            ],
+            "hi": [
+                "पत्तियों पर छोटे, गोल से लम्बे भूरे धब्बे",
+                "पुराने धब्बे गहरे भूरे से काले हो जाते हैं",
+                "पत्तियां पीली होकर सूख जाती हैं",
+                "लाल-भूरे बीजाणु उंगलियों पर आसानी से लग जाते हैं"
+            ],
+            "pa": [
+                "ਪੱਤੀਆਂ 'ਤੇ ਛੋਟੇ, ਗੋਲ ਤੋਂ ਲੰਬੇ ਭੂਰੇ ਧੱਬੇ",
+                "ਪੁਰਾਣੇ ਧੱਬੇ ਗੂੜ੍ਹੇ ਭੂਰੇ ਤੋਂ ਕਾਲੇ ਹੋ ਜਾਂਦੇ ਹਨ",
+                "ਪੱਤੀਆਂ ਪੀਲੀਆਂ ਹੋ ਕੇ ਸੁੱਕ ਜਾਂਦੀਆਂ ਹਨ",
+                "ਲਾਲ-ਭੂਰੇ ਬੀਜਾਣੂ ਉਂਗਲਾਂ 'ਤੇ ਆਸਾਨੀ ਨਾਲ ਲੱਗ ਜਾਂਦੇ ਹਨ"
+            ]
+        },
+        "weather_conditions": {
+            "en": "High humidity (85%+), moderate temperatures (20-25°C), and morning dew. Common in North Indian plains during September-October.",
+            "hi": "उच्च नमी (85%+), मध्यम तापमान (20-25°C), और सुबह की ओस। सितंबर-अक्टूबर में उत्तर भारतीय मैदानों में आम।",
+            "pa": "ਉੱਚ ਨਮੀ (85%+), ਮੱਧਮ ਤਾਪਮਾਨ (20-25°C), ਅਤੇ ਸਵੇਰ ਦੀ ਓਸ। ਸਤੰਬਰ-ਅਕਤੂਬਰ ਵਿੱਚ ਉੱਤਰ ਭਾਰਤੀ ਮੈਦਾਨਾਂ ਵਿੱਚ ਆਮ।"
+        },
+        "season": {
+            "en": "Kharif (Monsoon crop)",
+            "hi": "खरीफ (बरसाती फसल)",
+            "pa": "ਖਰੀਫ (ਮੌਨਸੂਨ ਦੀ ਫ਼ਸਲ)"
+        },
+        "regions": {
+            "en": [
+                "Punjab",
+                "Haryana",
+                "Uttar Pradesh",
+                "Bihar",
+                "Madhya Pradesh",
+                "Rajasthan"
+            ],
+            "hi": [
+                "पंजाब",
+                "हरियाणा",
+                "उत्तर प्रदेश",
+                "बिहार",
+                "मध्य प्रदेश",
+                "राजस्थान"
+            ],
+            "pa": [
+                "ਪੰਜਾਬ",
+                "ਹਰਿਆਣਾ",
+                "ਉੱਤਰ ਪ੍ਰਦੇਸ਼",
+                "ਬਿਹਾਰ",
+                "ਮੱਧ ਪ੍ਰਦੇਸ਼",
+                "ਰਾਜਸਥਾਨ"
+            ]
+        },
+        "chemical_control": {
+            "en": [
+                "Spray Mancozeb @ 2.5g per liter of water (₹400-500/acre)",
+                "Tebuconazole 250 EC @ 1ml per liter water (₹600-700/acre)",
+                "Propiconazole 25 EC @ 1ml per liter water (₹500-600/acre)",
+                "Apply at 10-12 day intervals during humid weather",
+                "Available at: IFFCO, KRIBHCO, or local agro centers (Pesticide shops)"
+            ],
+            "hi": [
+                "मैन्कोजेब @ 2.5 ग्राम प्रति लीटर पानी (₹400-500 प्रति एकड़)",
+                "टेबुकोनाजोल 250 ईसी @ 1 मिली प्रति लीटर पानी (₹600-700 प्रति एकड़)",
+                "प्रोपिकोनाजोल 25 ईसी @ 1 मिली प्रति लीटर पानी (₹500-600 प्रति एकड़)",
+                "नमी वाले मौसम में 10-12 दिन के अंतराल पर छिड़काव करें",
+                "उपलब्धता: आईएफएफसीओ, कृभको, या स्थानीय कृषि केंद्र (कीटनाशक दुकानें)"
+            ],
+            "pa": [
+                "ਮੈਨਕੋਜ਼ੇਬ @ 2.5 ਗ੍ਰਾਮ ਪ੍ਰਤੀ ਲੀਟਰ ਪਾਣੀ (₹400-500 ਪ੍ਰਤੀ ਏਕੜ)",
+                "ਟੇਬੁਕੋਨਾਜ਼ੋਲ 250 ਈਸੀ @ 1 ਮਿ.ਲੀ. ਪ੍ਰਤੀ ਲੀਟਰ ਪਾਣੀ (₹600-700 ਪ੍ਰਤੀ ਏਕੜ)",
+                "ਪ੍ਰੋਪੀਕੋਨਾਜ਼ੋਲ 25 ਈਸੀ @ 1 ਮਿ.ਲੀ. ਪ੍ਰਤੀ ਲੀਟਰ ਪਾਣੀ (₹500-600 ਪ੍ਰਤੀ ਏਕੜ)",
+                "ਨਮੀ ਵਾਲੇ ਮੌਸਮ ਵਿੱਚ 10-12 ਦਿਨ ਦੇ ਅੰਤਰਾਲ 'ਤੇ ਛਿੜਕਾਅ ਕਰੋ",
+                "ਉਪਲਬਧਤਾ: ਆਈਐੱਫਐੱਫਸੀਓ, ਕ੍ਰਿਭਕੋ, ਜਾਂ ਸਥਾਨਕ ਖੇਤੀ ਕੇਂਦਰ (ਕੀਟਨਾਸ਼ਕ ਦੁਕਾਨਾਂ)"
+            ]
+        },
+        "organic_remedies": {
+            "en": [
+                "Neem oil (5ml/L water) + liquid soap (1ml/L) - Spray weekly (₹150/L)",
+                "Trichoderma viride @ 10g/kg seed treatment (₹100/acre)",
+                "Pseudomonas fluorescens @ 10g/L water foliar spray (₹200/acre)",
+                "Baking soda (5g/L) + vegetable oil (5ml/L) water - Spray at first sign",
+                "Cow urine (100ml/L) + Neem oil (5ml/L) - Ferment for 3 days, dilute 1:5"
+            ],
+            "hi": [
+                "नीम तेल (5ml/L पानी) + तरल साबुन (1ml/L) - साप्ताहिक छिड़काव (₹150/L)",
+                "ट्राइकोडर्मा विरिडे @ 10g/kg बीज उपचार (₹100/एकड़)",
+                "स्यूडोमोनास फ्लोरेसेंस @ 10g/L पानी पर्ण छिड़काव (₹200/एकड़)",
+                "बेकिंग सोडा (5g/L) + वनस्पति तेल (5ml/L) पानी - पहले लक्षण पर छिड़काव",
+                "गौ मूत्र (100ml/L) + नीम तेल (5ml/L) - 3 दिन किण्वित करें, 1:5 पतला करें"
+            ],
+            "pa": [
+                "ਨਿੰਮ ਦਾ ਤੇਲ (5ml/L ਪਾਣੀ) + ਤਰਲ ਸਾਬਣ (1ml/L) - ਹਫਤਾਵਾਰੀ ਛਿੜਕਾਅ (₹150/L)",
+                "ਟ੍ਰਾਈਕੋਡਰਮਾ ਵਿਰਾਈਡ @ 10g/kg ਬੀਜ ਉਪਚਾਰ (₹100/ਏਕੜ)",
+                "ਸੂਡੋਮੋਨਾਸ ਫਲੋਰੇਸੈਂਸ @ 10g/L ਪਾਣੀ ਫੋਲੀਅਰ ਸਪਰੇਅ (₹200/ਏਕੜ)",
+                "ਬੇਕਿੰਗ ਸੋਡਾ (5g/L) + ਸਬਜ਼ੀ ਦਾ ਤੇਲ (5ml/L) ਪਾਣੀ - ਪਹਿਲੇ ਲੱਛਣ 'ਤੇ ਛਿੜਕਾਅ",
+                "ਗਊ ਮੂਤਰ (100ml/L) + ਨਿੰਮ ਦਾ ਤੇਲ (5ml/L) - 3 ਦਿਨ ਖਮੀਰ ਕਰੋ, 1:5 ਪਤਲਾ ਕਰੋ"
+            ]
+        },
+        "prevention": {
+            "en": [
+                "Plant resistant hybrids (e.g., PMH 1, PMH 2, JH 3459)",
+                "Avoid continuous maize cropping - rotate with wheat or pulses",
+                "Destroy crop residues after harvest (burn or deep plow)",
+                "Maintain proper plant spacing (60cm x 20cm)",
+                "Avoid excess nitrogen - use recommended 120:60:40 NPK"
+            ],
+            "hi": [
+                "प्रतिरोधी संकर किस्में लगाएं (जैसे, पीएमएच 1, पीएमएच 2, जेएच 3459)",
+                "लगातार मक्का न लगाएं - गेहूं या दालों के साथ फसल चक्र अपनाएं",
+                "फसल अवशेष नष्ट करें (जलाएं या गहरी जुताई करें)",
+                "उचित पौध दूरी बनाए रखें (60cm x 20cm)",
+                "अत्यधिक नाइट्रोजन से बचें - अनुशंसित 120:60:40 NPK का उपयोग करें"
+            ],
+            "pa": [
+                "ਰੋਧਕ ਹਾਈਬ੍ਰਿਡ ਕਿਸਮਾਂ ਲਗਾਓ (ਜਿਵੇਂ, ਪੀਐੱਮਐੱਚ 1, ਪੀਐੱਮਐੱਚ 2, ਜੇਐੱਚ 3459)",
+                "ਲਗਾਤਾਰ ਮੱਕੀ ਨਾ ਲਗਾਓ - ਕਣਕ ਜਾਂ ਦਾਲਾਂ ਨਾਲ ਫ਼ਸਲ ਚੱਕਰ ਅਪਣਾਓ",
+                "ਫ਼ਸਲ ਵਾਸ਼ੇਸ਼ ਨਸ਼ਟ ਕਰੋ (ਸਾੜੋ ਜਾਂ ਡੂੰਘੀ ਵਾਹੀ ਕਰੋ)",
+                "ਉਚਿਤ ਪੌਦਾ ਦੂਰੀ ਰੱਖੋ (60cm x 20cm)",
+                "ਬਹੁਤ ਜ਼ਿਆਦਾ ਨਾਈਟ੍ਰੋਜਨ ਤੋਂ ਬਚੋ - ਸਿਫਾਰਸ਼ੀ 120:60:40 NPK ਵਰਤੋਂ"
+            ]
+        },
+        "cultural_practices": {
+            "en": [
+                "Early sowing (June-July) to escape late-season disease pressure",
+                "Remove and destroy infected leaves when first spotted",
+                "Ensure proper drainage in fields",
+                "Balanced fertilization - avoid excess nitrogen",
+                "Weed control to improve air circulation"
+            ],
+            "hi": [
+                "जल्दी बुवाई (जून-जुलाई) देर से मौसम रोग दबाव से बचने के लिए",
+                "संक्रमित पत्तियों को पहले दिखने पर हटा दें",
+                "खेतों में उचित जल निकासी सुनिश्चित करें",
+                "संतुलित उर्वरक - अत्यधिक नाइट्रोजन से बचें",
+                "वायु संचार सुधारने के लिए खरपतवार नियंत्रण"
+            ],
+            "pa": [
+                "ਜਲਦੀ ਬਿਜਾਈ (ਜੂਨ-ਜੁਲਾਈ) ਦੇਰ ਨਾਲ ਮੌਸਮ ਰੋਗ ਦਬਾਅ ਤੋਂ ਬਚਣ ਲਈ",
+                "ਪ੍ਰਭਾਵਿਤ ਪੱਤੀਆਂ ਨੂੰ ਪਹਿਲਾਂ ਦਿਖਣ 'ਤੇ ਹਟਾਓ",
+                "ਖੇਤਾਂ ਵਿੱਚ ਉਚਿਤ ਪਾਣੀ ਨਿਕਾਸੀ ਯਕੀਨੀ ਬਣਾਓ",
+                "ਸੰਤੁਲਿਤ ਖਾਦ - ਬਹੁਤ ਜ਼ਿਆਦਾ ਨਾਈਟ੍ਰੋਜਨ ਤੋਂ ਬਚੋ",
+                "ਹਵਾ ਸੰਚਾਰ ਸੁਧਾਰਨ ਲਈ ਨਦੀਨ ਨਿਯੰਤਰਣ"
+            ]
+        },
+        "severity_levels": {
+            "en": {
+                "low": "Few pustules on lower leaves only - Begin organic treatments and monitoring",
+                "medium": "Pustules on 30-50% leaves - Apply fungicides immediately",
+                "high": "Widespread infection, pustules on all leaves including ear - Aggressive fungicide program with multiple sprays"
+            },
+            "hi": {
+                "low": "केवल निचली पत्तियों पर कुछ धब्बे - जैविक उपचार शुरू करें और निगरानी रखें",
+                "medium": "30-50% पत्तियों पर धब्बे - तुरंत फफूंदनाशक लगाएं",
+                "high": "व्यापक संक्रमण, सभी पत्तियों पर धब्बे - कई छिड़कावों के साथ आक्रामक फफूंदनाशक कार्यक्रम"
+            },
+            "pa": {
+                "low": "ਕੇਵਲ ਹੇਠਲੀਆਂ ਪੱਤੀਆਂ 'ਤੇ ਕੁਝ ਧੱਬੇ - ਜੈਵਿਕ ਉਪਚਾਰ ਸ਼ੁਰੂ ਕਰੋ ਅਤੇ ਨਿਗਰਾਨੀ ਰੱਖੋ",
+                "medium": "30-50% ਪੱਤੀਆਂ 'ਤੇ ਧੱਬੇ - ਤੁਰੰਤ ਫੰਗੀਸਾਈਡ ਲਗਾਓ",
+                "high": "ਵਿਆਪਕ ਲਾਗ, ਸਾਰੀਆਂ ਪੱਤੀਆਂ 'ਤੇ ਧੱਬੇ - ਕਈ ਛਿੜਕਾਵਾਂ ਨਾਲ ਹਮਲਾਵਰ ਫੰਗੀਸਾਈਡ ਪ੍ਰੋਗਰਾਮ"
+            }
+        },
+        "time_to_recover": {
+            "en": "7-14 days with proper treatment",
+            "hi": "उचित उपचार से 7-14 दिन",
+            "pa": "ਸਹੀ ਇਲਾਜ ਨਾਲ 7-14 ਦਿਨ"
+        },
+        "yield_impact": {
+            "en": "Can cause 15-40% yield loss if untreated in Punjab and UP",
+            "hi": "पंजाब और यूपी में अनुपचारित होने पर 15-40% उपज हानि हो सकती है",
+            "pa": "ਪੰਜਾਬ ਅਤੇ ਯੂਪੀ ਵਿੱਚ ਇਲਾਜ ਨਾ ਕਰਨ 'ਤੇ 15-40% ਝਾੜ ਨੁਕਸਾਨ ਹੋ ਸਕਦਾ ਹੈ"
+        },
+        "emergency_contact": {
+            "en": "Kisan Call Center: 1800-180-1551 (Toll Free) | State Agriculture Dept Helpline",
+            "hi": "किसान कॉल सेंटर: 1800-180-1551 (टोल फ्री) | राज्य कृषि विभाग हेल्पलाइन",
+            "pa": "ਕਿਸਾਨ ਕਾਲ ਸੈਂਟਰ: 1800-180-1551 (ਟੋਲ ਫਰੀ) | ਰਾਜ ਖੇਤੀਬਾੜੀ ਵਿਭਾਗ ਹੈਲਪਲਾਈਨ"
+        }
+    },
+    "Wheat_Yellow_Rust": {
+        "crop": {
+            "en": "Wheat",
+            "hi": "गेहूं",
+            "pa": "ਕਣਕ"
+        },
+        "disease": {
+            "en": "Yellow Rust (Stripe Rust)",
+            "hi": "पीला रतुआ",
+            "pa": "ਪੀਲਾ ਰਤਵਾ"
+        },
+        "symptoms": {
+            "en": [
+                "Yellow to orange pustules arranged in stripes on leaves",
+                "Pustules produce yellow spores that rub off easily",
+                "Leaves turn yellow and dry prematurely",
+                "Can spread rapidly in cool, humid weather",
+                "Infected plants appear yellowish from distance"
+            ],
+            "hi": [
+                "पत्तियों पर पीले से नारंगी धब्बे धारियों में",
+                "धब्बों से पीले बीजाणु निकलते हैं जो आसानी से रगड़ में निकल जाते हैं",
+                "पत्तियां पीली होकर समय से पहले सूख जाती हैं",
+                "ठंडे, नम मौसम में तेजी से फैल सकता है",
+                "संक्रमित पौधे दूर से पीले दिखते हैं"
+            ],
+            "pa": [
+                "ਪੱਤੀਆਂ 'ਤੇ ਪੀਲੇ ਤੋਂ ਸੰਤਰੀ ਧੱਬੇ ਧਾਰੀਆਂ ਵਿੱਚ",
+                "ਧੱਬਿਆਂ ਤੋਂ ਪੀਲੇ ਬੀਜਾਣੂ ਨਿਕਲਦੇ ਹਨ ਜੋ ਆਸਾਨੀ ਨਾਲ ਰਗੜ ਨਾਲ ਨਿਕਲ ਜਾਂਦੇ ਹਨ",
+                "ਪੱਤੀਆਂ ਪੀਲੀਆਂ ਹੋ ਕੇ ਸਮੇਂ ਤੋਂ ਪਹਿਲਾਂ ਸੁੱਕ ਜਾਂਦੀਆਂ ਹਨ",
+                "ਠੰਡੇ, ਨਮੀ ਵਾਲੇ ਮੌਸਮ ਵਿੱਚ ਤੇਜ਼ੀ ਨਾਲ ਫੈਲ ਸਕਦਾ ਹੈ",
+                "ਪ੍ਰਭਾਵਿਤ ਪੌਦੇ ਦੂਰੋਂ ਪੀਲੇ ਦਿਖਦੇ ਹਨ"
+            ]
+        },
+        "weather_conditions": {
+            "en": "Cool temperatures (10-20°C), high humidity, and foggy conditions. Major problem in North-Wheat belt during December-February.",
+            "hi": "ठंडा तापमान (10-20°C), उच्च आर्द्रता, और कोहरे की स्थिति। दिसंबर-फरवरी के दौरान उत्तर-गेहूं बेल्ट में प्रमुख समस्या।",
+            "pa": "ਠੰਡਾ ਤਾਪਮਾਨ (10-20°C), ਉੱਚ ਨਮੀ, ਅਤੇ ਧੁੰਦ ਵਾਲੀਆਂ ਸਥਿਤੀਆਂ। ਦਸੰਬਰ-ਫਰਵਰੀ ਦੌਰਾਨ ਉੱਤਰ-ਕਣਕ ਬੈਲਟ ਵਿੱਚ ਮੁੱਖ ਸਮੱਸਿਆ।"
+        },
+        "season": {
+            "en": "Rabi (Winter crop)",
+            "hi": "रबी (सर्दियों की फसल)",
+            "pa": "ਰਬੀ (ਸਰਦੀਆਂ ਦੀ ਫ਼ਸਲ)"
+        },
+        "regions": {
+            "en": [
+                "Punjab",
+                "Haryana",
+                "Western Uttar Pradesh",
+                "Rajasthan",
+                "Madhya Pradesh",
+                "Himachal Pradesh"
+            ],
+            "hi": [
+                "पंजाब",
+                "हरियाणा",
+                "पश्चिमी उत्तर प्रदेश",
+                "राजस्थान",
+                "मध्य प्रदेश",
+                "हिमाचल प्रदेश"
+            ],
+            "pa": [
+                "ਪੰਜਾਬ",
+                "ਹਰਿਆਣਾ",
+                "ਪੱਛਮੀ ਉੱਤਰ ਪ੍ਰਦੇਸ਼",
+                "ਰਾਜਸਥਾਨ",
+                "ਮੱਧ ਪ੍ਰਦੇਸ਼",
+                "ਹਿਮਾਚਲ ਪ੍ਰਦੇਸ਼"
+            ]
+        },
+        "chemical_control": {
+            "en": [
+                "Propiconazole 25 EC @ 1ml/L water (₹600-700/acre)",
+                "Tebuconazole 250 EC @ 1ml/L water (₹600-700/acre)",
+                "Hexaconazole 5 EC @ 2ml/L water (₹500-600/acre)",
+                "Azoxystrobin 23 SC @ 1ml/L water (₹800-900/acre) - for severe cases",
+                "Apply at 12-15 day intervals, preferably before rain",
+                "Available at: IFFCO, KRIBHCO, or local agro centers"
+            ],
+            "hi": [
+                "प्रोपिकोनाजोल 25 ईसी @ 1ml/L पानी (₹600-700/एकड़)",
+                "टेबुकोनाजोल 250 ईसी @ 1ml/L पानी (₹600-700/एकड़)",
+                "हेक्साकोनाजोल 5 ईसी @ 2ml/L पानी (₹500-600/एकड़)",
+                "एज़ोक्सीस्ट्रोबिन 23 एससी @ 1ml/L पानी (₹800-900/एकड़) - गंभीर मामलों के लिए",
+                "12-15 दिन के अंतराल पर छिड़काव करें, अधिमानतः बारिश से पहले",
+                "उपलब्धता: आईएफएफसीओ, कृभको, या स्थानीय कृषि केंद्र"
+            ],
+            "pa": [
+                "ਪ੍ਰੋਪੀਕੋਨਾਜ਼ੋਲ 25 ਈਸੀ @ 1ml/L ਪਾਣੀ (₹600-700/ਏਕੜ)",
+                "ਟੇਬੁਕੋਨਾਜ਼ੋਲ 250 ਈਸੀ @ 1ml/L ਪਾਣੀ (₹600-700/ਏਕੜ)",
+                "ਹੈਕਸਾਕੋਨਾਜ਼ੋਲ 5 ਈਸੀ @ 2ml/L ਪਾਣੀ (₹500-600/ਏਕੜ)",
+                "ਅਜ਼ੋਕਸੀਸਟ੍ਰੋਬਿਨ 23 ਐੱਸਸੀ @ 1ml/L ਪਾਣੀ (₹800-900/ਏਕੜ) - ਗੰਭੀਰ ਮਾਮਲਿਆਂ ਲਈ",
+                "12-15 ਦਿਨ ਦੇ ਅੰਤਰਾਲ 'ਤੇ ਛਿੜਕਾਅ ਕਰੋ, ਤਰਜੀਹੀ ਤੌਰ 'ਤੇ ਬਾਰਿਸ਼ ਤੋਂ ਪਹਿਲਾਂ",
+                "ਉਪਲਬਧਤਾ: ਆਈਐੱਫਐੱਫਸੀਓ, ਕ੍ਰਿਭਕੋ, ਜਾਂ ਸਥਾਨਕ ਖੇਤੀ ਕੇਂਦਰ"
+            ]
+        },
+        "organic_remedies": {
+            "en": [
+                "Neem oil (5ml/L) + Cow urine (100ml/L) - Ferment 3 days, spray weekly",
+                "Pseudomonas fluorescens @ 10g/L water foliar spray (₹200/acre)",
+                "Trichoderma viride @ 5g/L water spray every 10 days",
+                "Baking soda solution (5g/L) with sticker spray at first sign",
+                "Buttermilk (1L in 10L water) spray weekly in morning"
+            ],
+            "hi": [
+                "नीम तेल (5ml/L) + गौ मूत्र (100ml/L) - 3 दिन किण्वित करें, साप्ताहिक छिड़काव",
+                "स्यूडोमोनास फ्लोरेसेंस @ 10g/L पानी पर्ण छिड़काव (₹200/एकड़)",
+                "ट्राइकोडर्मा विरिडे @ 5g/L पानी हर 10 दिन में छिड़काव",
+                "बेकिंग सोडा घोल (5g/L) स्टिकर के साथ पहले लक्षण पर छिड़काव",
+                "छाछ (1L in 10L पानी) सुबह साप्ताहिक छिड़काव"
+            ],
+            "pa": [
+                "ਨਿੰਮ ਦਾ ਤੇਲ (5ml/L) + ਗਊ ਮੂਤਰ (100ml/L) - 3 ਦਿਨ ਖਮੀਰ ਕਰੋ, ਹਫਤਾਵਾਰੀ ਛਿੜਕਾਅ",
+                "ਸੂਡੋਮੋਨਾਸ ਫਲੋਰੇਸੈਂਸ @ 10g/L ਪਾਣੀ ਫੋਲੀਅਰ ਸਪਰੇਅ (₹200/ਏਕੜ)",
+                "ਟ੍ਰਾਈਕੋਡਰਮਾ ਵਿਰਾਈਡ @ 5g/L ਪਾਣੀ ਹਰ 10 ਦਿਨ ਛਿੜਕਾਅ",
+                "ਬੇਕਿੰਗ ਸੋਡਾ ਘੋਲ (5g/L) ਸਟਿੱਕਰ ਨਾਲ ਪਹਿਲੇ ਲੱਛਣ 'ਤੇ ਛਿੜਕਾਅ",
+                "ਲੱਸੀ (1L in 10L ਪਾਣੀ) ਸਵੇਰੇ ਹਫਤਾਵਾਰੀ ਛਿੜਕਾਅ"
+            ]
+        },
+        "prevention": {
+            "en": [
+                "Plant resistant varieties: HD 2967, HD 3086, PBW 725, PBW 752",
+                "Early sowing (October-November) to avoid disease peak",
+                "Avoid excess nitrogen - use 120:60:40 NPK recommended",
+                "Destroy volunteer wheat plants and crop residues",
+                "Crop rotation with non-cereals (pulses, oilseeds)"
+            ],
+            "hi": [
+                "प्रतिरोधी किस्में लगाएं: एचडी 2967, एचडी 3086, पीबीडब्ल्यू 725, पीबीडब्ल्यू 752",
+                "जल्दी बुवाई (अक्टूबर-नवंबर) रोग चरम से बचने के लिए",
+                "अत्यधिक नाइट्रोजन से बचें - अनुशंसित 120:60:40 NPK का उपयोग करें",
+                "स्वयं उगे गेहूं के पौधे और फसल अवशेष नष्ट करें",
+                "गैर-अनाज (दालें, तिलहन) के साथ फसल चक्र"
+            ],
+            "pa": [
+                "ਰੋਧਕ ਕਿਸਮਾਂ ਲਗਾਓ: HD 2967, HD 3086, PBW 725, PBW 752",
+                "ਜਲਦੀ ਬਿਜਾਈ (ਅਕਤੂਬਰ-ਨਵੰਬਰ) ਰੋਗ ਦੇ ਸਿਖਰ ਤੋਂ ਬਚਣ ਲਈ",
+                "ਬਹੁਤ ਜ਼ਿਆਦਾ ਨਾਈਟ੍ਰੋਜਨ ਤੋਂ ਬਚੋ - ਸਿਫਾਰਸ਼ੀ 120:60:40 NPK ਵਰਤੋਂ",
+                "ਆਪਣੇ ਆਪ ਉੱਗੇ ਕਣਕ ਦੇ ਪੌਦੇ ਅਤੇ ਫ਼ਸਲ ਵਾਸ਼ੇਸ਼ ਨਸ਼ਟ ਕਰੋ",
+                "ਗੈਰ-ਅਨਾਜ (ਦਾਲਾਂ, ਤੇਲ ਬੀਜ) ਨਾਲ ਫ਼ਸਲ ਚੱਕਰ"
+            ]
+        },
+        "cultural_practices": {
+            "en": [
+                "Maintain proper plant population (100-110 kg seed/ha)",
+                "Avoid irrigation during cloudy/foggy days",
+                "Remove and destroy first infected plants (roguing)",
+                "Ensure proper drainage in fields",
+                "Balanced fertilization with potash for disease resistance"
+            ],
+            "hi": [
+                "उचित पौध संख्या बनाए रखें (100-110 किलो बीज/हेक्टेयर)",
+                "बादल/कोहरे वाले दिनों में सिंचाई से बचें",
+                "पहले संक्रमित पौधों को हटाएं और नष्ट करें",
+                "खेतों में उचित जल निकासी सुनिश्चित करें",
+                "रोग प्रतिरोध के लिए पोटाश के साथ संतुलित उर्वरक"
+            ],
+            "pa": [
+                "ਉਚਿਤ ਪੌਦਾ ਗਿਣਤੀ ਰੱਖੋ (100-110 ਕਿਲੋ ਬੀਜ/ਹੈਕਟੇਅਰ)",
+                "ਬੱਦਲ/ਧੁੰਦ ਵਾਲੇ ਦਿਨਾਂ ਵਿੱਚ ਸਿੰਚਾਈ ਤੋਂ ਬਚੋ",
+                "ਪਹਿਲੇ ਪ੍ਰਭਾਵਿਤ ਪੌਦਿਆਂ ਨੂੰ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ",
+                "ਖੇਤਾਂ ਵਿੱਚ ਉਚਿਤ ਪਾਣੀ ਨਿਕਾਸੀ ਯਕੀਨੀ ਬਣਾਓ",
+                "ਰੋਗ ਪ੍ਰਤੀਰੋਧ ਲਈ ਪੋਟਾਸ਼ ਨਾਲ ਸੰਤੁਲਿਤ ਖਾਦ"
+            ]
+        },
+        "severity_levels": {
+            "en": {
+                "low": "Few stripes on lower leaves only - Start organic treatments",
+                "medium": "Stripes on 20-40% leaves - Apply fungicides immediately",
+                "high": "Widespread infection, stripes on flag leaf - EMERGENCY: Multiple fungicide sprays needed"
+            },
+            "hi": {
+                "low": "केवल निचली पत्तियों पर कुछ धारियां - जैविक उपचार शुरू करें",
+                "medium": "20-40% पत्तियों पर धारियां - तुरंत फफूंदनाशक लगाएं",
+                "high": "व्यापक संक्रमण, झंडे की पत्ती पर धारियां - आपातकाल: कई फफूंदनाशक छिड़काव की आवश्यकता"
+            },
+            "pa": {
+                "low": "ਕੇਵਲ ਹੇਠਲੀਆਂ ਪੱਤੀਆਂ 'ਤੇ ਕੁਝ ਧਾਰੀਆਂ - ਜੈਵਿਕ ਉਪਚਾਰ ਸ਼ੁਰੂ ਕਰੋ",
+                "medium": "20-40% ਪੱਤੀਆਂ 'ਤੇ ਧਾਰੀਆਂ - ਤੁਰੰਤ ਫੰਗੀਸਾਈਡ ਲਗਾਓ",
+                "high": "ਵਿਆਪਕ ਲਾਗ, ਝੰਡੇ ਵਾਲੀ ਪੱਤੀ 'ਤੇ ਧਾਰੀਆਂ - ਐਮਰਜੈਂਸੀ: ਕਈ ਫੰਗੀਸਾਈਡ ਛਿੜਕਾਅ ਦੀ ਲੋੜ"
+            }
+        },
+        "time_to_recover": {
+            "en": "10-14 days with proper treatment",
+            "hi": "उचित उपचार से 10-14 दिन",
+            "pa": "ਸਹੀ ਇਲਾਜ ਨਾਲ 10-14 ਦਿਨ"
+        },
+        "yield_impact": {
+            "en": "20-60% yield loss in severe epidemics (Punjab, Haryana)",
+            "hi": "गंभीर महामारी में 20-60% उपज हानि (पंजाब, हरियाणा)",
+            "pa": "ਗੰਭੀਰ ਮਹਾਮਾਰੀ ਵਿੱਚ 20-60% ਝਾੜ ਨੁਕਸਾਨ (ਪੰਜਾਬ, ਹਰਿਆਣਾ)"
+        },
+        "emergency_contact": {
+            "en": "Kisan Call Center: 1800-180-1551 | IIWBR Karnal: 0184-2267490 | State Agriculture Helpline",
+            "hi": "किसान कॉल सेंटर: 1800-180-1551 | आईआईडब्ल्यूबीआर करनाल: 0184-2267490 | राज्य कृषि हेल्पलाइन",
+            "pa": "ਕਿਸਾਨ ਕਾਲ ਸੈਂਟਰ: 1800-180-1551 | IIWBR ਕਰਨਾਲ: 0184-2267490 | ਰਾਜ ਖੇਤੀਬਾੜੀ ਹੈਲਪਲਾਈਨ"
+        }
+    },
+    "Paddy_Blast": {
+        "crop": {
+            "en": "Paddy (Rice)",
+            "hi": "धान (चावल)",
+            "pa": "ਝੋਨਾ (ਚੌਲ)"
+        },
+        "disease": {
+            "en": "Rice Blast",
+            "hi": "झुलसा रोग",
+            "pa": "ਝੁਲਸ ਰੋਗ"
+        },
+        "symptoms": {
+            "en": [
+                "Diamond-shaped lesions with gray center and brown margins on leaves",
+                "Lesions on nodes causing stem breakage",
+                "Neck blast - panicle neck turns brown and rots",
+                "Spindle-shaped spots on leaves",
+                "Complete panicle drying in severe cases"
+            ],
+            "hi": [
+                "पत्तियों पर भूरे किनारों और भूरे केंद्र के साथ हीरे के आकार के घाव",
+                "गांठों पर घाव जिससे तना टूट जाता है",
+                "गर्दन झुलसा - पुष्पगुच्छ गर्दन भूरी होकर सड़ जाती है",
+                "पत्तियों पर धुरी के आकार के धब्बे",
+                "गंभीर मामलों में पूरा पुष्पगुच्छ सूख जाता है"
+            ],
+            "pa": [
+                "ਪੱਤੀਆਂ 'ਤੇ ਭੂਰੇ ਕਿਨਾਰਿਆਂ ਅਤੇ ਸਲੇਟੀ ਕੇਂਦਰ ਨਾਲ ਹੀਰੇ ਦੇ ਆਕਾਰ ਦੇ ਜਖ਼ਮ",
+                "ਗੰਢਾਂ 'ਤੇ ਜਖ਼ਮ ਜਿਸ ਨਾਲ ਤਣਾ ਟੁੱਟ ਜਾਂਦਾ ਹੈ",
+                "ਗਰਦਨ ਝੁਲਸ - ਗੁੱਛੇ ਦੀ ਗਰਦਨ ਭੂਰੀ ਹੋ ਕੇ ਸੜ ਜਾਂਦੀ ਹੈ",
+                "ਪੱਤੀਆਂ 'ਤੇ ਤਕਲੇ ਦੇ ਆਕਾਰ ਦੇ ਧੱਬੇ",
+                "ਗੰਭੀਰ ਮਾਮਲਿਆਂ ਵਿੱਚ ਪੂਰਾ ਗੁੱਛਾ ਸੁੱਕ ਜਾਂਦਾ ਹੈ"
+            ]
+        },
+        "weather_conditions": {
+            "en": "High humidity (90%+), intermittent drizzles, low night temperatures (15-20°C). Common in Punjab, Haryana, UP, Bihar during August-September.",
+            "hi": "उच्च आर्द्रता (90%+), रुक-रुक कर बूंदाबांदी, कम रात का तापमान (15-20°C)। अगस्त-सितंबर के दौरान पंजाब, हरियाणा, यूपी, बिहार में आम।",
+            "pa": "ਉੱਚ ਨਮੀ (90%+), ਰੁਕ-ਰੁਕ ਕੇ ਬੂੰਦਾਬਾਂਦੀ, ਘੱਟ ਰਾਤ ਦਾ ਤਾਪਮਾਨ (15-20°C)। ਅਗਸਤ-ਸਤੰਬਰ ਦੌਰਾਨ ਪੰਜਾਬ, ਹਰਿਆਣਾ, ਯੂਪੀ, ਬਿਹਾਰ ਵਿੱਚ ਆਮ।"
+        },
+        "season": {
+            "en": "Kharif (Monsoon crop)",
+            "hi": "खरीफ (बरसाती फसल)",
+            "pa": "ਖਰੀਫ (ਮੌਨਸੂਨ ਦੀ ਫ਼ਸਲ)"
+        },
+        "regions": {
+            "en": [
+                "Punjab",
+                "Haryana",
+                "Uttar Pradesh",
+                "Bihar",
+                "West Bengal",
+                "Assam",
+                "Chhattisgarh",
+                "Odisha"
+            ],
+            "hi": [
+                "पंजाब",
+                "हरियाणा",
+                "उत्तर प्रदेश",
+                "बिहार",
+                "पश्चिम बंगाल",
+                "असम",
+                "छत्तीसगढ़",
+                "ओडिशा"
+            ],
+            "pa": [
+                "ਪੰਜਾਬ",
+                "ਹਰਿਆਣਾ",
+                "ਉੱਤਰ ਪ੍ਰਦੇਸ਼",
+                "ਬਿਹਾਰ",
+                "ਪੱਛਮੀ ਬੰਗਾਲ",
+                "ਅਸਾਮ",
+                "ਛੱਤੀਸਗੜ੍ਹ",
+                "ਓਡੀਸ਼ਾ"
+            ]
+        },
+        "chemical_control": {
+            "en": [
+                "Tricyclazole 75 WP @ 1g/L water (₹700-800/acre)",
+                "Carbendazim 50 WP @ 1g/L water (₹500-600/acre)",
+                "Isoprothiolane 40 EC @ 1.5ml/L water (₹800-900/acre)",
+                "Edifenphos 50 EC @ 1ml/L water (₹700-800/acre)",
+                "Apply at boot leaf and panicle emergence stages",
+                "Available at: IFFCO, KRIBHCO, NSC, or local agro centers"
+            ],
+            "hi": [
+                "ट्राइसाइक्लाजोल 75 WP @ 1g/L पानी (₹700-800/एकड़)",
+                "कार्बेन्डाजिम 50 WP @ 1g/L पानी (₹500-600/एकड़)",
+                "आइसोप्रोथियोलेन 40 EC @ 1.5ml/L पानी (₹800-900/एकड़)",
+                "एडीफेनफोस 50 EC @ 1ml/L पानी (₹700-800/एकड़)",
+                "बूट पत्ती और पुष्पगुच्छ निकास चरणों पर छिड़काव करें",
+                "उपलब्धता: आईएफएफसीओ, कृभको, एनएससी, या स्थानीय कृषि केंद्र"
+            ],
+            "pa": [
+                "ਟ੍ਰਾਈਸਾਈਕਲਾਜ਼ੋਲ 75 WP @ 1g/L ਪਾਣੀ (₹700-800/ਏਕੜ)",
+                "ਕਾਰਬੈਂਡਾਜ਼ਿਮ 50 WP @ 1g/L ਪਾਣੀ (₹500-600/ਏਕੜ)",
+                "ਆਈਸੋਪ੍ਰੋਥਿਓਲੇਨ 40 EC @ 1.5ml/L ਪਾਣੀ (₹800-900/ਏਕੜ)",
+                "ਐਡੀਫੈਨਫੋਸ 50 EC @ 1ml/L ਪਾਣੀ (₹700-800/ਏਕੜ)",
+                "ਬੂਟ ਪੱਤੀ ਅਤੇ ਗੁੱਛਾ ਨਿਕਾਸ ਪੜਾਵਾਂ 'ਤੇ ਛਿੜਕਾਅ ਕਰੋ",
+                "ਉਪਲਬਧਤਾ: ਆਈਐੱਫਐੱਫਸੀਓ, ਕ੍ਰਿਭਕੋ, ਐੱਨਐੱਸਸੀ, ਜਾਂ ਸਥਾਨਕ ਖੇਤੀ ਕੇਂਦਰ"
+            ]
+        },
+        "organic_remedies": {
+            "en": [
+                "Pseudomonas fluorescens @ 10g/L water spray at 10-day intervals (₹200/acre)",
+                "Trichoderma viride @ 5g/L water seed treatment + foliar spray",
+                "Neem oil (5ml/L) + Cow urine (100ml/L) fermented spray weekly",
+                "Baking soda (5g/L) + Liquid soap (1ml/L) spray at first sign",
+                "Vermiwash @ 1:5 dilution spray weekly"
+            ],
+            "hi": [
+                "स्यूडोमोनास फ्लोरेसेंस @ 10g/L पानी 10 दिन के अंतराल पर छिड़काव (₹200/एकड़)",
+                "ट्राइकोडर्मा विरिडे @ 5g/L पानी बीज उपचार + पर्ण छिड़काव",
+                "नीम तेल (5ml/L) + गौ मूत्र (100ml/L) किण्वित साप्ताहिक छिड़काव",
+                "बेकिंग सोडा (5g/L) + तरल साबुन (1ml/L) पहले लक्षण पर छिड़काव",
+                "केंचुआ खाद (1:5 घोल) साप्ताहिक छिड़काव"
+            ],
+            "pa": [
+                "ਸੂਡੋਮੋਨਾਸ ਫਲੋਰੇਸੈਂਸ @ 10g/L ਪਾਣੀ 10 ਦਿਨ ਦੇ ਅੰਤਰਾਲ 'ਤੇ ਛਿੜਕਾਅ (₹200/ਏਕੜ)",
+                "ਟ੍ਰਾਈਕੋਡਰਮਾ ਵਿਰਾਈਡ @ 5g/L ਪਾਣੀ ਬੀਜ ਉਪਚਾਰ + ਫੋਲੀਅਰ ਸਪਰੇਅ",
+                "ਨਿੰਮ ਦਾ ਤੇਲ (5ml/L) + ਗਊ ਮੂਤਰ (100ml/L) ਖਮੀਰ ਕੀਤਾ ਹਫਤਾਵਾਰੀ ਛਿੜਕਾਅ",
+                "ਬੇਕਿੰਗ ਸੋਡਾ (5g/L) + ਤਰਲ ਸਾਬਣ (1ml/L) ਪਹਿਲੇ ਲੱਛਣ 'ਤੇ ਛਿੜਕਾਅ",
+                "ਖੁੰਭ ਕੰਪੋਸਟ (1:5 ਘੋਲ) ਹਫਤਾਵਾਰੀ ਛਿੜਕਾਅ"
+            ]
+        },
+        "prevention": {
+            "en": [
+                "Use resistant varieties: PR 121, PR 126, Pusa Basmati 1121, PB 1509",
+                "Seed treatment with Trichoderma @ 10g/kg seed",
+                "Avoid excess nitrogen - split application recommended",
+                "Maintain proper plant spacing (20cm x 15cm)",
+                "Destroy crop residues and volunteer rice plants"
+            ],
+            "hi": [
+                "प्रतिरोधी किस्मों का उपयोग करें: पीआर 121, पीआर 126, पूसा बासमती 1121, पीबी 1509",
+                "ट्राइकोडर्मा @ 10g/kg बीज से बीज उपचार",
+                "अत्यधिक नाइट्रोजन से बचें - विभाजित अनुप्रयोग की सिफारिश की जाती है",
+                "उचित पौध दूरी बनाए रखें (20cm x 15cm)",
+                "फसल अवशेष और स्वयं उगे धान के पौधे नष्ट करें"
+            ],
+            "pa": [
+                "ਰੋਧਕ ਕਿਸਮਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ: PR 121, PR 126, ਪੂਸਾ ਬਾਸਮਤੀ 1121, PB 1509",
+                "ਟ੍ਰਾਈਕੋਡਰਮਾ @ 10g/kg ਬੀਜ ਨਾਲ ਬੀਜ ਉਪਚਾਰ",
+                "ਬਹੁਤ ਜ਼ਿਆਦਾ ਨਾਈਟ੍ਰੋਜਨ ਤੋਂ ਬਚੋ - ਵੰਡ ਕੇ ਵਰਤੋਂ ਦੀ ਸਿਫਾਰਸ਼ ਕੀਤੀ ਜਾਂਦੀ ਹੈ",
+                "ਉਚਿਤ ਪੌਦਾ ਦੂਰੀ ਰੱਖੋ (20cm x 15cm)",
+                "ਫ਼ਸਲ ਵਾਸ਼ੇਸ਼ ਅਤੇ ਆਪਣੇ ਆਪ ਉੱਗੇ ਝੋਨੇ ਦੇ ਪੌਦੇ ਨਸ਼ਟ ਕਰੋ"
+            ]
+        },
+        "cultural_practices": {
+            "en": [
+                "Avoid dense planting",
+                "Maintain shallow water level (2-5 cm) during tillering",
+                "Drain field completely for 2-3 days at first sign of disease",
+                "Balanced fertilization with potash and zinc",
+                "Remove and destroy infected plants"
+            ],
+            "hi": [
+                "घनी बुवाई से बचें",
+                "कल्ले निकलने के दौरान उथला पानी (2-5 सेमी) रखें",
+                "रोग के पहले लक्षण पर खेत को 2-3 दिनों के लिए पूरी तरह सुखाएं",
+                "पोटाश और जिंक के साथ संतुलित उर्वरक",
+                "संक्रमित पौधों को हटाएं और नष्ट करें"
+            ],
+            "pa": [
+                "ਸੰਘਣੀ ਬਿਜਾਈ ਤੋਂ ਬਚੋ",
+                "ਕਲ੍ਹੇ ਨਿਕਲਣ ਦੌਰਾਨ ਥੋੜ੍ਹਾ ਪਾਣੀ (2-5 ਸੈਂ.ਮੀ.) ਰੱਖੋ",
+                "ਰੋਗ ਦੇ ਪਹਿਲੇ ਲੱਛਣ 'ਤੇ ਖੇਤ ਨੂੰ 2-3 ਦਿਨਾਂ ਲਈ ਪੂਰੀ ਤਰ੍ਹਾਂ ਸੁਕਾਓ",
+                "ਪੋਟਾਸ਼ ਅਤੇ ਜ਼ਿੰਕ ਨਾਲ ਸੰਤੁਲਿਤ ਖਾਦ",
+                "ਪ੍ਰਭਾਵਿਤ ਪੌਦਿਆਂ ਨੂੰ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ"
+            ]
+        },
+        "severity_levels": {
+            "en": {
+                "low": "Few leaf lesions only - Apply organic treatments, monitor closely",
+                "medium": "Lesions on 20-30% leaves or node symptoms - Apply fungicides immediately",
+                "high": "Neck blast or panicle infection - EMERGENCY: Multiple fungicide sprays needed"
+            },
+            "hi": {
+                "low": "केवल कुछ पत्ती घाव - जैविक उपचार लागू करें, बारीकी से निगरानी करें",
+                "medium": "20-30% पत्तियों पर घाव या गांठ लक्षण - तुरंत फफूंदनाशक लगाएं",
+                "high": "गर्दन झुलसा या पुष्पगुच्छ संक्रमण - आपातकाल: कई फफूंदनाशक छिड़काव की आवश्यकता"
+            },
+            "pa": {
+                "low": "ਕੇਵਲ ਕੁਝ ਪੱਤੀ ਜਖ਼ਮ - ਜੈਵਿਕ ਉਪਚਾਰ ਲਗਾਓ, ਨੇੜਿਓਂ ਨਿਗਰਾਨੀ ਕਰੋ",
+                "medium": "20-30% ਪੱਤੀਆਂ 'ਤੇ ਜਖ਼ਮ ਜਾਂ ਗੰਢ ਲੱਛਣ - ਤੁਰੰਤ ਫੰਗੀਸਾਈਡ ਲਗਾਓ",
+                "high": "ਗਰਦਨ ਝੁਲਸ ਜਾਂ ਗੁੱਛਾ ਲਾਗ - ਐਮਰਜੈਂਸੀ: ਕਈ ਫੰਗੀਸਾਈਡ ਛਿੜਕਾਅ ਦੀ ਲੋੜ"
+            }
+        },
+        "time_to_recover": {
+            "en": "10-15 days with treatment, neck blast may not recover fully",
+            "hi": "उपचार से 10-15 दिन, गर्दन झुलसा पूरी तरह ठीक नहीं हो सकता",
+            "pa": "ਇਲਾਜ ਨਾਲ 10-15 ਦਿਨ, ਗਰਦਨ ਝੁਲਸ ਪੂਰੀ ਤਰ੍ਹਾਂ ਠੀਕ ਨਹੀਂ ਹੋ ਸਕਦੀ"
+        },
+        "yield_impact": {
+            "en": "20-60% loss in leaf blast, 50-80% loss in neck blast",
+            "hi": "पत्ती झुलसा में 20-60% नुकसान, गर्दन झुलसा में 50-80% नुकसान",
+            "pa": "ਪੱਤੀ ਝੁਲਸ ਵਿੱਚ 20-60% ਨੁਕਸਾਨ, ਗਰਦਨ ਝੁਲਸ ਵਿੱਚ 50-80% ਨੁਕਸਾਨ"
+        },
+        "emergency_contact": {
+            "en": "Kisan Call Center: 1800-180-1551 | IIRR Hyderabad: 040-24591222 | State Agriculture Helpline",
+            "hi": "किसान कॉल सेंटर: 1800-180-1551 | आईआईआरआर हैदराबाद: 040-24591222 | राज्य कृषि हेल्पलाइन",
+            "pa": "ਕਿਸਾਨ ਕਾਲ ਸੈਂਟਰ: 1800-180-1551 | IIRR ਹੈਦਰਾਬਾਦ: 040-24591222 | ਰਾਜ ਖੇਤੀਬਾੜੀ ਹੈਲਪਲਾਈਨ"
+        }
+    },
+    "Potato_Late_Blight": {
+        "crop": {
+            "en": "Potato",
+            "hi": "आलू",
+            "pa": "ਆਲੂ"
+        },
+        "disease": {
+            "en": "Late Blight",
+            "hi": "पछेता झुलसा",
+            "pa": "ਪਛੇਤਾ ਝੁਲਸ"
+        },
+        "symptoms": {
+            "en": [
+                "Water-soaked, pale green lesions with white fungal growth on leaf edges",
+                "Lesions expand rapidly, turning brown to black",
+                "Entire field can be destroyed within 7-10 days",
+                "Tuber rot with reddish-brown dry rot",
+                "Characteristic foul smell in infected tubers"
+            ],
+            "hi": [
+                "पानी से लथपथ, हल्के हरे घाव पत्ती किनारों पर सफेद फफूंद वृद्धि के साथ",
+                "घाव तेजी से फैलते हैं, भूरे से काले हो जाते हैं",
+                "पूरा खेत 7-10 दिनों के भीतर नष्ट हो सकता है",
+                "लाल-भूरे सूखे सड़न के साथ कंद सड़न",
+                "संक्रमित कंदों में विशिष्ट दुर्गंध"
+            ],
+            "pa": [
+                "ਪਾਣੀ ਨਾਲ ਲਥਪਥ, ਹਲਕੇ ਹਰੇ ਜਖ਼ਮ ਪੱਤੀ ਕਿਨਾਰਿਆਂ 'ਤੇ ਚਿੱਟੀ ਫੰਗਸ ਵਾਧੇ ਨਾਲ",
+                "ਜਖ਼ਮ ਤੇਜ਼ੀ ਨਾਲ ਫੈਲਦੇ ਹਨ, ਭੂਰੇ ਤੋਂ ਕਾਲੇ ਹੋ ਜਾਂਦੇ ਹਨ",
+                "ਪੂਰਾ ਖੇਤ 7-10 ਦਿਨਾਂ ਵਿੱਚ ਨਸ਼ਟ ਹੋ ਸਕਦਾ ਹੈ",
+                "ਲਾਲ-ਭੂਰੇ ਸੁੱਕੇ ਸੜਨ ਨਾਲ ਕੰਦ ਸੜਨ",
+                "ਪ੍ਰਭਾਵਿਤ ਕੰਦਾਂ ਵਿੱਚ ਵਿਸ਼ੇਸ਼ ਬਦਬੂ"
+            ]
+        },
+        "weather_conditions": {
+            "en": "Cool (10-20°C) and humid (90%+) weather with fog/clouds. Major problem in North Indian plains during December-January. Can destroy entire crop in 1 week.",
+            "hi": "ठंडा (10-20°C) और आर्द्र (90%+) मौसम कोहरे/बादलों के साथ। दिसंबर-जनवरी के दौरान उत्तर भारतीय मैदानों में प्रमुख समस्या। 1 सप्ताह में पूरी फसल नष्ट कर सकता है।",
+            "pa": "ਠੰਡਾ (10-20°C) ਅਤੇ ਨਮੀ ਵਾਲਾ (90%+) ਮੌਸਮ ਧੁੰਦ/ਬੱਦਲਾਂ ਨਾਲ। ਦਸੰਬਰ-ਜਨਵਰੀ ਦੌਰਾਨ ਉੱਤਰ ਭਾਰਤੀ ਮੈਦਾਨਾਂ ਵਿੱਚ ਮੁੱਖ ਸਮੱਸਿਆ। 1 ਹਫਤੇ ਵਿੱਚ ਪੂਰੀ ਫ਼ਸਲ ਨਸ਼ਟ ਕਰ ਸਕਦਾ ਹੈ।"
+        },
+        "season": {
+            "en": "Rabi (Winter crop)",
+            "hi": "रबी (सर्दियों की फसल)",
+            "pa": "ਰਬੀ (ਸਰਦੀਆਂ ਦੀ ਫ਼ਸਲ)"
+        },
+        "regions": {
+            "en": [
+                "Punjab",
+                "Haryana",
+                "Western Uttar Pradesh",
+                "Bihar",
+                "West Bengal",
+                "Madhya Pradesh"
+            ],
+            "hi": [
+                "पंजाब",
+                "हरियाणा",
+                "पश्चिमी उत्तर प्रदेश",
+                "बिहार",
+                "पश्चिम बंगाल",
+                "मध्य प्रदेश"
+            ],
+            "pa": [
+                "ਪੰਜਾਬ",
+                "ਹਰਿਆਣਾ",
+                "ਪੱਛਮੀ ਉੱਤਰ ਪ੍ਰਦੇਸ਼",
+                "ਬਿਹਾਰ",
+                "ਪੱਛਮੀ ਬੰਗਾਲ",
+                "ਮੱਧ ਪ੍ਰਦੇਸ਼"
+            ]
+        },
+        "chemical_control": {
+            "en": [
+                "EMERGENCY - IMMEDIATE ACTION REQUIRED",
+                "Metalaxyl + Mancozeb @ 2.5g/L water (₹800-900/acre) - Apply immediately",
+                "Cymoxanil + Mancozeb @ 2.5g/L water (₹900-1000/acre)",
+                "Dimethomorph 50 WP @ 1g/L water (₹1000-1200/acre)",
+                "Chlorothalonil 75 WP @ 2g/L water (₹600-700/acre) for preventive spraying",
+                "Apply every 5-7 days in wet weather",
+                "ROTATE FUNGICIDES to prevent resistance",
+                "Available at: Bayer, Syngenta, UPL dealers, local agro centers"
+            ],
+            "hi": [
+                "आपातकाल - तत्काल कार्रवाई की आवश्यकता",
+                "मेटालैक्सिल + मैन्कोजेब @ 2.5g/L पानी (₹800-900/एकड़) - तुरंत लगाएं",
+                "साइमोक्सानिल + मैन्कोजेब @ 2.5g/L पानी (₹900-1000/एकड़)",
+                "डाइमेथोमॉर्फ 50 WP @ 1g/L पानी (₹1000-1200/एकड़)",
+                "क्लोरोथालोनिल 75 WP @ 2g/L पानी (₹600-700/एकड़) निवारक छिड़काव के लिए",
+                "नम मौसम में हर 5-7 दिन में छिड़काव करें",
+                "प्रतिरोध रोकने के लिए फफूंदनाशक बदलें",
+                "उपलब्धता: बायर, सिन्जेन्टा, यूपीएल डीलर, स्थानीय कृषि केंद्र"
+            ],
+            "pa": [
+                "ਐਮਰਜੈਂਸੀ - ਤੁਰੰਤ ਕਾਰਵਾਈ ਦੀ ਲੋੜ",
+                "ਮੈਟਾਲੈਕਸਿਲ + ਮੈਨਕੋਜ਼ੇਬ @ 2.5g/L ਪਾਣੀ (₹800-900/ਏਕੜ) - ਤੁਰੰਤ ਲਗਾਓ",
+                "ਸਾਈਮੋਕਸਾਨਿਲ + ਮੈਨਕੋਜ਼ੇਬ @ 2.5g/L ਪਾਣੀ (₹900-1000/ਏਕੜ)",
+                "ਡਾਈਮੈਥੋਮੋਰਫ 50 WP @ 1g/L ਪਾਣੀ (₹1000-1200/ਏਕੜ)",
+                "ਕਲੋਰੋਥੈਲੋਨਿਲ 75 WP @ 2g/L ਪਾਣੀ (₹600-700/ਏਕੜ) ਰੋਕਥਾਮ ਵਾਲੇ ਛਿੜਕਾਅ ਲਈ",
+                "ਨਮੀ ਵਾਲੇ ਮੌਸਮ ਵਿੱਚ ਹਰ 5-7 ਦਿਨ ਛਿੜਕਾਅ ਕਰੋ",
+                "ਰੋਧਕਤਾ ਰੋਕਣ ਲਈ ਫੰਗੀਸਾਈਡ ਬਦਲੋ",
+                "ਉਪਲਬਧਤਾ: ਬਾਇਰ, ਸਿੰਜੇਂਟਾ, ਯੂਪੀਐੱਲ ਡੀਲਰ, ਸਥਾਨਕ ਖੇਤੀ ਕੇਂਦਰ"
+            ]
+        },
+        "organic_remedies": {
+            "en": [
+                "⚠️ ORGANIC REMEDIES HAVE LIMITED EFFECTIVENESS - USE CHEMICALS FOR ACTIVE INFECTION",
+                "Bordeaux mixture (1%): Copper sulfate 1kg + Lime 1kg in 100L water",
+                "Copper oxychloride @ 3g/L water (limited effectiveness)",
+                "Remove and destroy infected plants immediately",
+                "Neem oil (5ml/L) + Garlic extract (100g/L) as preventive spray"
+            ],
+            "hi": [
+                "⚠️ जैविक उपचार सीमित प्रभावशीलता रखते हैं - सक्रिय संक्रमण के लिए रसायनों का उपयोग करें",
+                "बोर्डो मिश्रण (1%): कॉपर सल्फेट 1kg + चूना 1kg 100L पानी में",
+                "कॉपर ऑक्सीक्लोराइड @ 3g/L पानी (सीमित प्रभावशीलता)",
+                "संक्रमित पौधों को तुरंत हटाएं और नष्ट करें",
+                "नीम तेल (5ml/L) + लहसुन अर्क (100g/L) निवारक छिड़काव के रूप में"
+            ],
+            "pa": [
+                "⚠️ ਜੈਵਿਕ ਉਪਚਾਰਾਂ ਦੀ ਸੀਮਿਤ ਪ੍ਰਭਾਵਸ਼ੀਲਤਾ ਹੈ - ਸਰਗਰਮ ਲਾਗ ਲਈ ਰਸਾਇਣਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+                "ਬਾਰਡੋ ਮਿਸ਼ਰਣ (1%): ਕਾਪਰ ਸਲਫੇਟ 1kg + ਚੂਨਾ 1kg 100L ਪਾਣੀ ਵਿੱਚ",
+                "ਕਾਪਰ ਆਕਸੀਕਲੋਰਾਈਡ @ 3g/L ਪਾਣੀ (ਸੀਮਿਤ ਪ੍ਰਭਾਵਸ਼ੀਲਤਾ)",
+                "ਪ੍ਰਭਾਵਿਤ ਪੌਦਿਆਂ ਨੂੰ ਤੁਰੰਤ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ",
+                "ਨਿੰਮ ਦਾ ਤੇਲ (5ml/L) + ਲਸਣ ਦਾ ਅਰਕ (100g/L) ਰੋਕਥਾਮ ਵਾਲੇ ਛਿੜਕਾਅ ਵਜੋਂ"
+            ]
+        },
+        "prevention": {
+            "en": [
+                "CRITICAL: Use certified disease-free seed tubers only",
+                "Plant resistant varieties: Kufri Pukhraj, Kufri Himalini, Kufri Girdhari",
+                "Destroy cull piles and volunteer potatoes",
+                "Avoid planting near tomato fields",
+                "Preventative fungicide program starting 40-45 days after planting",
+                "Harvest during dry conditions and store properly"
+            ],
+            "hi": [
+                "महत्वपूर्ण: केवल प्रमाणित रोग-मुक्त बीज कंदों का उपयोग करें",
+                "प्रतिरोधी किस्में लगाएं: कुफरी पुखराज, कुफरी हिमालिनी, कुफरी गिरधारी",
+                "अपशिष्ट ढेर और स्वयं उगे आलू नष्ट करें",
+                "टमाटर के खेतों के पास रोपण से बचें",
+                "रोपण के 40-45 दिन बाद निवारक फफूंदनाशक कार्यक्रम शुरू करें",
+                "सूखी परिस्थितियों में कटाई करें और उचित भंडारण करें"
+            ],
+            "pa": [
+                "ਮਹੱਤਵਪੂਰਨ: ਕੇਵਲ ਪ੍ਰਮਾਣਿਤ ਰੋਗ-ਮੁਕਤ ਬੀਜ ਕੰਦਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ",
+                "ਰੋਧਕ ਕਿਸਮਾਂ ਲਗਾਓ: ਕੁਫਰੀ ਪੁਖਰਾਜ, ਕੁਫਰੀ ਹਿਮਾਲਿਨੀ, ਕੁਫਰੀ ਗਿਰਧਾਰੀ",
+                "ਰੱਦੀ ਢੇਰ ਅਤੇ ਆਪਣੇ ਆਪ ਉੱਗੇ ਆਲੂ ਨਸ਼ਟ ਕਰੋ",
+                "ਟਮਾਟਰ ਦੇ ਖੇਤਾਂ ਦੇ ਨੇੜੇ ਲਗਾਉਣ ਤੋਂ ਬਚੋ",
+                "ਲਗਾਉਣ ਤੋਂ 40-45 ਦਿਨ ਬਾਅਦ ਰੋਕਥਾਮ ਵਾਲਾ ਫੰਗੀਸਾਈਡ ਪ੍ਰੋਗਰਾਮ ਸ਼ੁਰੂ ਕਰੋ",
+                "ਸੁੱਕੀਆਂ ਸਥਿਤੀਆਂ ਵਿੱਚ ਵਾਢੀ ਕਰੋ ਅਤੇ ਉਚਿਤ ਭੰਡਾਰਨ ਕਰੋ"
+            ]
+        },
+        "cultural_practices": {
+            "en": [
+                "Good hilling to protect tubers from infection",
+                "Improve air drainage in field - avoid waterlogging",
+                "Avoid irrigation during cloudy/foggy weather",
+                "Remove and destroy infected plants immediately",
+                "Maintain 60cm row spacing for better air circulation"
+            ],
+            "hi": [
+                "कंदों को संक्रमण से बचाने के लिए अच्छी मिट्टी चढ़ाना",
+                "खेत में हवा निकासी में सुधार - जलभराव से बचें",
+                "बादल/कोहरे वाले मौसम में सिंचाई से बचें",
+                "संक्रमित पौधों को तुरंत हटाएं और नष्ट करें",
+                "बेहतर वायु संचार के लिए 60 सेमी पंक्ति दूरी बनाए रखें"
+            ],
+            "pa": [
+                "ਕੰਦਾਂ ਨੂੰ ਲਾਗ ਤੋਂ ਬਚਾਉਣ ਲਈ ਚੰਗੀ ਵਾਹੀ",
+                "ਖੇਤ ਵਿੱਚ ਹਵਾ ਨਿਕਾਸੀ ਸੁਧਾਰੋ - ਪਾਣੀ ਭਰਾਅ ਤੋਂ ਬਚੋ",
+                "ਬੱਦਲ/ਧੁੰਦ ਵਾਲੇ ਮੌਸਮ ਵਿੱਚ ਸਿੰਚਾਈ ਤੋਂ ਬਚੋ",
+                "ਪ੍ਰਭਾਵਿਤ ਪੌਦਿਆਂ ਨੂੰ ਤੁਰੰਤ ਹਟਾਓ ਅਤੇ ਨਸ਼ਟ ਕਰੋ",
+                "ਬਿਹਤਰ ਹਵਾ ਸੰਚਾਰ ਲਈ 60 ਸੈਂ.ਮੀ. ਕਤਾਰ ਦੂਰੀ ਰੱਖੋ"
+            ]
+        },
+        "severity_levels": {
+            "en": {
+                "low": "FIRST SPOTS SEEN - IMMEDIATE ACTION NEEDED. Apply Metalaxyl-based fungicide",
+                "medium": "Lesions spreading - Aggressive fungicide program every 5 days",
+                "high": "Field severely infected - Destroy crop to prevent spread, notify agriculture officer"
+            },
+            "hi": {
+                "low": "पहले धब्बे दिखे - तत्काल कार्रवाई की आवश्यकता। मेटालैक्सिल-आधारित फफूंदनाशक लगाएं",
+                "medium": "घाव फैल रहे हैं - हर 5 दिन में आक्रामक फफूंदनाशक कार्यक्रम",
+                "high": "खेत गंभीर रूप से संक्रमित - प्रसार रोकने के लिए फसल नष्ट करें, कृषि अधिकारी को सूचित करें"
+            },
+            "pa": {
+                "low": "ਪਹਿਲੇ ਧੱਬੇ ਦਿਖੇ - ਤੁਰੰਤ ਕਾਰਵਾਈ ਦੀ ਲੋੜ। ਮੈਟਾਲੈਕਸਿਲ-ਅਧਾਰਿਤ ਫੰਗੀਸਾਈਡ ਲਗਾਓ",
+                "medium": "ਜਖ਼ਮ ਫੈਲ ਰਹੇ ਹਨ - ਹਰ 5 ਦਿਨ ਹਮਲਾਵਰ ਫੰਗੀਸਾਈਡ ਪ੍ਰੋਗਰਾਮ",
+                "high": "ਖੇਤ ਗੰਭੀਰ ਰੂਪ ਵਿੱਚ ਪ੍ਰਭਾਵਿਤ - ਫੈਲਣ ਤੋਂ ਰੋਕਣ ਲਈ ਫ਼ਸਲ ਨਸ਼ਟ ਕਰੋ, ਖੇਤੀਬਾੜੀ ਅਧਿਕਾਰੀ ਨੂੰ ਸੂਚਿਤ ਕਰੋ"
+            }
+        },
+        "time_to_recover": {
+            "en": "MAY NOT RECOVER; prevention is critical. Early treatment can save 40-60% crop",
+            "hi": "ठीक नहीं हो सकता; रोकथाम महत्वपूर्ण है। प्रारंभिक उपचार 40-60% फसल बचा सकता है",
+            "pa": "ਠੀਕ ਨਹੀਂ ਹੋ ਸਕਦਾ; ਰੋਕਥਾਮ ਮਹੱਤਵਪੂਰਨ ਹੈ। ਸ਼ੁਰੂਆਤੀ ਇਲਾਜ 40-60% ਫ਼ਸਲ ਬਚਾ ਸਕਦਾ ਹੈ"
+        },
+        "yield_impact": {
+            "en": "50-100% crop loss if uncontrolled - EMERGENCY DISEASE",
+            "hi": "अनियंत्रित होने पर 50-100% फसल हानि - आपातकालीन रोग",
+            "pa": "ਅਨਿਯੰਤਰਿਤ ਹੋਣ 'ਤੇ 50-100% ਫ਼ਸਲ ਨੁਕਸਾਨ - ਐਮਰਜੈਂਸੀ ਰੋਗ"
+        },
+        "emergency_contact": {
+            "en": "Kisan Call Center: 1800-180-1551 | CPRI Shimla: 0177-2625073 | State Agriculture Helpline | IMMEDIATELY NOTIFY DISTRICT AGRICULTURE OFFICER",
+            "hi": "किसान कॉल सेंटर: 1800-180-1551 | सीपीआरआई शिमला: 0177-2625073 | राज्य कृषि हेल्पलाइन | तुरंत जिला कृषि अधिकारी को सूचित करें",
+            "pa": "ਕਿਸਾਨ ਕਾਲ ਸੈਂਟਰ: 1800-180-1551 | CPRI ਸ਼ਿਮਲਾ: 0177-2625073 | ਰਾਜ ਖੇਤੀਬਾੜੀ ਹੈਲਪਲਾਈਨ | ਤੁਰੰਤ ਜ਼ਿਲ੍ਹਾ ਖੇਤੀਬਾੜੀ ਅਧਿਕਾਰੀ ਨੂੰ ਸੂਚਿਤ ਕਰੋ"
+        }
+    }
+}

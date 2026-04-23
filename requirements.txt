@@ -1,0 +1,9 @@
+tensorflow
+numpy
+pillow
+pandas
+tabulate
+tqdm
+wrapt
+h5py
+keras

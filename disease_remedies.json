@@ -1,0 +1,42 @@
+{
+  "Sample_Disease": {
+    "crop": {
+      "en": "Sample Crop",
+      "hi": "नमूना फसल",
+      "pa": "ਨਮੂਨਾ ਫ਼ਸਲ"
+    },
+    "disease": {
+      "en": "Sample Disease",
+      "hi": "नमूना रोग",
+      "pa": "ਨਮੂਨਾ ਰੋਗ"
+    },
+    "symptoms": {
+      "en": [
+        "Symptom 1",
+        "Symptom 2"
+      ],
+      "hi": [
+        "लक्षण 1",
+        "लक्षण 2"
+      ],
+      "pa": [
+        "ਲੱਛਣ 1",
+        "ਲੱਛਣ 2"
+      ]
+    },
+    "chemical_control": {
+      "en": [
+        "Chemical 1",
+        "Chemical 2"
+      ],
+      "hi": [
+        "रासायनिक 1",
+        "रासायनिक 2"
+      ],
+      "pa": [
+        "ਰਸਾਇਣ 1",
+        "ਰਸਾਇਣ 2"
+      ]
+    }
+  }
+}
