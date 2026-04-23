@@ -20,7 +20,7 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 from datetime import datetime
-import tabulate
+
 
 import sys
 try:
