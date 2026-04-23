@@ -636,7 +636,7 @@ def predict_with_remedies(image_path, model_path=None, tflite_path=None,
         if crop_filter and crop_filter.lower() not in class_label.lower():
             continue
             
-        confidence = predictions_pct[idx]
+        confidence = float(predictions_pct[idx])
         
         # Get remedies for this disease
         remedies = remedy_db.get_remedies(class_label, confidence)
